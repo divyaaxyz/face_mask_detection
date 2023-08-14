@@ -1,0 +1,17 @@
+DATASET:
+MaskedFace-Net -- A Dataset of Correctly/Incorrectly Masked Face Images in the Context of COVID-19
+AdnaneCabani, Karim Hammoudi, Halim Benhabiles, Mahmoud Melkemi- comprises 137016 images.
+As of now we are only using 1800+ images to train our model.
+
+https://esigelec-my.sharepoint.com/personal/cabani_esigelec_fr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcabani%5Fesigelec%5Ffr%2FDocuments%2FMaskedFaceNetDataset%2FCMFD&ga=1
+
+TOOLS WE USED:
+1)Install anaconda.
+Anaconda: Package of multiple libraries and IDEs.
+We use Jupyter notebook for implementation.
+2)After installing anaconda:
+pip install numpy
+pip install tensorflow
+pip install opencv-python
+
+
