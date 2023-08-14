@@ -1,0 +1,12 @@
+RESULT ANALYSIS
+
+The developed system is able to detect Face mask in real-time. The system has been created using TensorFlow object detection API. The pre-trained model that has been taken from the TensorFlow model zoo is SSD MobileNetV2 320x320. It has been trained using transfer learning on the created dataset which contains 1878 images in total.Here “adam” optimizer is used, “binary_crossentropy” is used as a loss function and metrics is  set to “accuracy”.
+The result of the system is based on the accuracy rate and the average accuracy rate of the system is 97.07%. The accuracy rate of the system can be increased by increasing the size of the dataset which will boost up the recognition ability of the system. Thus, improving the result of the system and enhancing it.
+In spite of the dataset being small, our system has achieved an average accuracy rate of ~97.07% according to the code.
+As of now, we will be continue working on this and make all the suggested improvements and we also intend to add buzzer sound and increase the size of dataset.
+
+Future scope:
+
+This model can be used for various  applications.It can be used in any working environment such as public place, station, streets,and  examinationcentres, where accuracy and precision are highly desired. It can be installed and  setted up with the gates of the service providers properties like malls and shops, which will let  the customer enter only if it detects them wearing a mask in the right manner.  
+Future research will concentrate on enhancing the model's accuracy and applicability and testing the Haar cascade. Investigate deep learning architecture more thoroughly and apply deep learning design to a live security camera.
+Our next objective is to create a dataset with various mask-wearing states or establish a system that can determine whether a mask is being worn improperly using real-time object detection.Finally, the work opens interesting future directions for researchers. Firstly, the proposed technique can be integrated into any high-resolution video surveillance devices and not limited to mask detection only. Secondly, the model can be extended to detect facial landmarks with a facemask for biometric purposes.
