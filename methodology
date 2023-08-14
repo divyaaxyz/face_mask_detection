@@ -1,0 +1,42 @@
+1)Transfer Learning for Face mask detection.
+Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model
+on a second task. It is a popular approach in deep learning where pre-trained models are used as the starting point on computer
+vision and natural language processing tasks given the vast compute and time resources required to develop neural network
+models on these problems and from the huge jumps in skill that they provide on related problems.
+
+Pre-trained Model Approach
+1.	Select Source Model. A pre-trained source model is chosen from available models. Many research institutions release
+ models on large and challenging datasets that may be included in the pool of candidate models from which to choose from.
+2.	Reuse Model. The model pre-trained model can then be used as the starting point for a model on the second task of
+ interest. This may involve using all or parts of the model, depending on the modeling technique used.
+3.	Tune Model. Optionally, the model may need to be adapted or refined on the input-output pair data available for the
+ task of interest.
+
+2)Python-Programming language.
+
+3)OpenCV-For text, identification of face, for drawing rectangles.
+ OpenCV is the huge open-source library for computer vision, machine learning, and image processing and now it plays a
+ major role in real-time operation which is very important in today’s systems. By using it,  one can process images and
+ videos to identify objects, faces, or even the handwriting of a human. When it is integrated with various libraries,
+ such as NumPy, python is capable of processing the OpenCV array structure for analysis. To Identify image patterns and
+ their various features we use vector space and perform mathematical operations on these features. 
+
+4)TensorFlow-For classification of faces based on whether they wearing masks or not.
+TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools,
+libraries, and community resources that lets researchers push the state-of-the-art in ML and developers easily build and 
+deploy ML-powered applications.
+
+5)Haar Cascade Object Detection:
+Object Detection using Haar feature-based cascade classifiers is an effective object detection method proposed by Paul Viola
+and Michael Jones in their paper, "Rapid Object Detection using a Boosted Cascade of Simple Features" in 2001. It is a
+machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then
+used to detect objects in other images. We'll be using a Haar Cascade Model trained to detect faces in order to obtain the
+bounding box coordinates of faces in an image.
+
+We needed “haarcascade_frontalface_default.xml” for face detection. It significantly  reduces the computation time and makes
+the process more efficient. 
+
+The trained model is loaded and continuous video stream with humans is given as input. The  image or a frame of the video,
+in case the input is a video stream, is first sent to the cascade  classifier for the detection of human faces. Then the
+image or video frame is resized to obtain  only the cropped face of a person without the background. This face is given as 
+the input to the  model which we trained earlier. This outputs whether there is a mask or not. 
